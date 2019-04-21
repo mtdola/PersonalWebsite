@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murtadore</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/main.js"></script>
+</head>
+ 
+<body>
+<!--   Landing section, Main section of the page-->
+    <main id="main"> 
+      <div id="mask">
+           <div id="upperContainer">
+<!--            Nav list in full, top Nav bar-->
+                <nav id="upperNav">
+<!--                  Nav list to the left for the logo section-->
+                   <ul id="logo">
+                        <li><img src="img/sports-car.png" alt="">Murtadore</li>
+                   </ul>
+<!--                   Nav list to the right-->
+                   <label for="toggle" id="label">&#9776;</label>
+                   <input type="checkbox" id="toggle">
+                    <ul id="navList">
+                                <li class="listItem listOptions" id="home" onClick="home()"><a href="#main">Home</a></li>
+                                <li class="listItem listOptions" id="about" onClick="about()"><a href="#aboutMe"><a href="#aboutMe">About</a></a></li>
+                                <li class="listItem listOptions" id="skills" onClick="skills()"><a href="#myServices"><My></My> Services</a></li>
+                                <li class="listItem listOptions" id="skills" onClick="skills()"><a href="#myWorks">My works</a></li>
+                                <li class="listItem listOptions" id="contact" onClick="contact()"><a href="#contactMe">Contact</a></li>
+                                <li class="listItem listOptions" id="blog" onClick="blog()"><a href="#myBlog">Blog</a></li>
+                    </ul>
+                </nav>
+<!--                This section contains the main display of the top section-->
+                <div id="mainSection">
+                            <span id="hey">Hey, I'm <span id="myName">Murtadore</span></span>
+                            
+                            <span id="a">a web developer and graphic designer</span>
+                            <span id="occupation"></span>
+                            <button><a href="#aboutMe">Go in!</a></button>
+                            <div id="afterContainer">
+                                <div id="after1" class="after"></div>
+                                <div id="after2" class="after"></div>
+                                <div id="after3" class="after"></div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    
+<!--    Section for the rest of the webpage-->
+    <section id="content">
+        <section id="aboutMe">
+            <img src="img/meCrop.JPG" alt="" id="myImage">
+            <div id="aboutSection">
+                <span class="contentHeadings" id="aboutMeHeading">About <span id="me" class="bolderHead">Me</span></span>
+                <span id="aboutContent">
+                    <q>Design is thinking made visual</q>
+                    You, me, everyone has a design idea they want of anything be it website, logo, whatever, but not everyone has the time and skills to bring thier design to life. So thats where I come in. 
+                    <span id="iAm">I am <strong>Murtadore Olajobi</strong>, a web developer and a designer. I love designing, making websites and bringing the best ideas to life. Fortunately I love coffee so pick a place and lets bring this to life now!!!</span>
+                    <span id="buttons"><button id="grabCoffee"><a href="#contactMe">Lets do coffee</a></button> <button id="cv">Download CV</button></span>
+                </span>
+                
+            </div>
+        </section>
+        
+<!--        Myskills start-->
+        <section id="mySkills">
+            <div id="mySkillsSection">
+                <div class="contentHeadings">My <span class="bolderHead">Skills </span></div>
+                <div id="mySkillsContent">
+                    <div class="introSkills">Some of my skills will include: </div>
+                    <div class="barContainer"><h5 id="a">HTML</h5><div class="bar"><div id="html"></div></div></div>
+                    <div class="barContainer"><h5 id="b">CSS</h5><div class="bar"><div id="css"></div></div></div>
+                    <div class="barContainer"><h5 id="c">Javascript</h5><div class="bar"><div id="js"></div></div></div>
+                    <div class="barContainer"><h5 id="d">Wordpress</h5><div class="bar"><div id="wordpress"></div></div></div>
+                    <div class="barContainer"><h5 id="e">Graphic desgin</h5><div class="bar"><div id="graphics"></div></div></div>
+                </div>
+            </div>
+        </section>
+        
+<!--        Services Starts-->
+        <section id="services">
+            <div id="serviceContainer">
+               <div class="contentHeadings">My <span class="bolderHead">Services</span></div>
+                <div id="whatIdo"> What I do</div>
+                <div class="serviceBoxes"><img src="img/website-design-symbol.png" alt=""><h3>Web design</h3></div>
+                <div class="serviceBoxes"><img src="img/web-programming.png" alt=""><h3>Web development</h3></div>
+                <div class="serviceBoxes"><img src="img/graphic-tool.png" alt=""><h3>Graphic design</h3></div>
+                <div class="serviceBoxes"><img src="img/responsive.png" alt=""><h3>Responsive design</h3></div>
+                <div class="serviceBoxes"><img src="img/renewable-energy.png" alt=""><h3>Branding</h3></div>
+                <div class="serviceBoxes"><img src="img/planning.png" alt=""><h3>Content creation</h3></div>
+            </div>
+        </section>
+        
+<!--        Hire me starts-->
+        <section id="hire">
+            <div class="mask">
+                <div id="hireme">
+                    <h2>Hire me for your Next project</h2>
+                    <button id="hireButton"><a href="#contactMe">Grab a coffee</a></button>
+                </div>
+            </div>
+        </section>
+<!--        Blog section starts-->
+        <section id="blog">
+            
+        </section>
+        
+<!--        Contact Me starts-->
+        <section id="contactMe">
+           <div class="mask">
+                <div id="contact"> 
+                    <div  id="wannaCoffee">Wanna <span class="bolderHead">grab coffee</span> with me?</div>
+                    <div class="contactInfoContainer">
+                        <span class="contactTop rBorder"><img src="" alt=""><strong >Phone Number:</strong> <span class="contactValue">+2348183662841 </span></span>
+                        <span class="contactTop rBorder"><img src="" alt=""><strong>Email:</strong> <span class="contactValue">mtdolaj@gmail.com </span></span>
+                        <span class="contactTop" id="location"><img src="" alt=""><strong >Location:</strong> <span class="contactValue">University of Lagos Campus</span></span>
+                    </div>
+                </div>
+                <div id="form">
+                    <form action="#">
+                        <label for="name" class="label"> 
+                            <input type="text" id="form-name" placeholder="Name*">
+                        </label>
+                        <label for="email" class="label" >
+                            <input type="text" id="form-email" placeholder="Email*">
+                        </label>
+                        <label for="text" class="label" >
+                            <textarea type="text" id="form-message" placeholder="Type your message"></textarea>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+<!--        Footer starts-->
+        <section id="footer">
+            <footer>
+                <ul>
+                    <li><a href="instagram.com"><img src="img/instagram.png" alt=""></a></li>
+                    <li><a href="linkden.com"><img src="img/linkedin.png" alt=""></a></li>
+                    <li><a href="twittter.com"><img src="img/twitter.png" alt=""></a></li>
+                    <li><a href="github.com/mtdola"><img src="img/github.png" alt=""></a></li>
+                </ul>
+            </footer>
+        </section>
+    </section>
+</body>
+</html>

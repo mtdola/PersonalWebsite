@@ -2,17 +2,18 @@
 <html lang="">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Murtadore</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="js/main.js"></script>
+    
 </head>
  
 <body>
 <!--   Landing section, Main section of the page-->
     <main id="main"> 
       <div id="mask">
-           <div id="upperContainer">
+           <div id="upperContainer" class="subContainers">
 <!--            Nav list in full, top Nav bar-->
                 <nav id="upperNav">
 <!--                  Nav list to the left for the logo section-->
@@ -51,7 +52,7 @@
     
 <!--    Section for the rest of the webpage-->
     <section id="content">
-        <section id="aboutMe">
+        <section id="aboutMe" class="subContainers">
             <img src="img/meCrop.JPG" alt="" id="myImage">
             <div id="aboutSection">
                 <span class="contentHeadings" id="aboutMeHeading">About <span id="me" class="bolderHead">Me</span></span>
@@ -66,7 +67,7 @@
         </section>
         
 <!--        Myskills start-->
-        <section id="mySkills">
+        <section id="mySkills" class="subContainers">
             <div id="mySkillsSection">
                 <div class="contentHeadings">My <span class="bolderHead">Skills </span></div>
                 <div id="mySkillsContent">
@@ -81,7 +82,7 @@
         </section>
         
 <!--        Services Starts-->
-        <section id="services">
+        <section id="services" class="subContainers">
             <div id="serviceContainer">
                <div class="contentHeadings">My <span class="bolderHead">Services</span></div>
                 <div id="whatIdo"> What I do</div>
@@ -95,7 +96,7 @@
         </section>
         
 <!--        Hire me starts-->
-        <section id="hire">
+        <section id="hire" class="subContainers">
             <div class="mask">
                 <div id="hireme">
                     <h2>Hire me for your Next project</h2>
@@ -104,12 +105,12 @@
             </div>
         </section>
 <!--        Blog section starts-->
-        <section id="blog">
+        <section id="blog" class="subContainers">
             
         </section>
         
 <!--        Contact Me starts-->
-        <section id="contactMe">
+        <section id="contactMe" class="subContainers">
            <div class="mask">
                 <div id="contact"> 
                     <div  id="wannaCoffee">Wanna <span class="bolderHead">grab coffee</span> with me?</div>
@@ -136,7 +137,7 @@
         </section>
         
 <!--        Footer starts-->
-        <section id="footer">
+        <section id="footer" class="subContainers">
             <footer>
                 <ul>
                     <li><a href="instagram.com"><img src="img/instagram.png" alt=""></a></li>
@@ -146,6 +147,9 @@
                 </ul>
             </footer>
         </section>
+        
     </section>
+    <div class="backToTopContainer"><a href="#upperContainer"><button class="backToTop">&#10140;</button></a></div>
+    
 </body>
 </html>

@@ -413,7 +413,7 @@ main #mainSection {
     margin-top: 0;
 }
 #contactMe .contactInfoContainer {
-    box-sizing: border-box;
+/*    [box-sizing: border-box;]*/
 }
 #contactMe wanaCoffee {
     color: white;
@@ -482,7 +482,8 @@ main #mainSection {
 }
 @media only screen and (max-width: 900px) {
     html, body {
-        width: 100%;
+        max-width: 100%;
+        transform: scale(0.5);
     }
     #label {
         display: block;
@@ -515,7 +516,13 @@ main #mainSection {
     .contentHeadings #aboutMeHeading {
         display: inline-block;
         margin: 0;
+        top: 0;
+        right: 0;
         width: 40px;
+    }
+    #aboutSection {
+        margin: 0;
+        font-size: 20px;
     }
 }
 #contactMe #wannaCoffee {
@@ -533,6 +540,27 @@ main #mainSection {
     background-color: black;
     padding: 30px 550px 30px 500px;
 }
-
+.backToTopContainer {
+    border-radius: 50%;
+    position: fixed;
+    
+    bottom: 0;
+    padding: 0 0 4px 5px;
+    margin-right: 10px;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    float: right;
+    transform: rotate(-90deg);
+}
+.backToTop {
+    color: black;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+.backToTop:hover {
+    transform: scale(1.2);
+}
 
 

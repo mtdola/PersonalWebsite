@@ -421,8 +421,8 @@ main #mainSection {
 }
 #contactMe .contactInfoContainer {
     text-align: center;
-    margin: 0 220px;
-    padding-left: 130px;
+    margin: 0 140px;
+    padding-left: 120px;
     width: 75%;
     height: 100%;
     display: flex;

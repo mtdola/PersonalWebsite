@@ -234,8 +234,8 @@ main #mainSection {
 }
 #aboutContent {
     display: block;
-    margin: 15px 0x;
-    line-height: 1.5;
+    margin: 15px 0x 0 0;
+/*    line-height: 1.5;*/
     font-size: 18px;
     width: 600px;
 }
@@ -413,7 +413,7 @@ main #mainSection {
     margin-top: 0;
 }
 #contactMe .contactInfoContainer {
-/*    [box-sizing: border-box;]*/
+/*    box-sizing: border-box;*/
 }
 #contactMe wanaCoffee {
     color: white;
@@ -537,7 +537,8 @@ main #mainSection {
 #footer {
     align-content: flex;
     background-color: black;
-    padding: 30px 550px 30px 500px;
+    padding: 30px 0;
+    text-align: center;
 }
 .backToTopContainer {
     border-radius: 50%;
@@ -561,5 +562,7 @@ main #mainSection {
 .backToTop:hover {
     transform: scale(1.2);
 }
+
+
 
 

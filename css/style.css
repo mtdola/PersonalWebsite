@@ -535,9 +535,9 @@ main #mainSection {
     padding-right: 20px;
 }
 #footer {
-    align-content: flex;
+    align-content: block;
     background-color: black;
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
 }
 .backToTopContainer {
@@ -561,7 +561,17 @@ main #mainSection {
 .backToTop:hover {
     transform: scale(1.2);
 }
-
-
+/*My Works*/
+.displayCategory {
+    display: flex;
+    flex-direction: row
+    width: 100%;
+    margin: 10%;
+}
+.displayContainer {
+    width: 40%;
+    height: 20%;
+    margin: 3%;
+}
 
 
